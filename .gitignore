@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+**/checkpoints
+acl-publication-info.74k.parquet
+**/lightning_logs
