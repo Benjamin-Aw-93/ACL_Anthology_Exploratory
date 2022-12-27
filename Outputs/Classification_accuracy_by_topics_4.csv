@@ -1,0 +1,21 @@
+,Labels,False,True,Accuracy
+18,Summarization,3,28,90.32258064516128
+10,Machine Translation and Multilinguality,11,58,84.05797101449275
+1,Dialogue and Interactive Systems,14,44,75.86206896551724
+13,Question Answering,14,26,65.0
+3,Generation,16,26,61.904761904761905
+9,Machine Learning for NLP,27,43,61.42857142857143
+0,Computational Social Science and Social Media,12,16,57.14285714285714
+8,"Linguistic Theories, Cognitive Modeling and Psycholinguistics",5,4,44.44444444444444
+17,Speech and Multimodality,5,4,44.44444444444444
+16,"Sentiment Analysis, Stylistic Analysis, and Argument Mining",16,12,42.857142857142854
+4,Information Extraction,37,17,31.48148148148148
+5,Information Retrieval and Text Mining,16,6,27.27272727272727
+2,Discourse and Pragmatics,8,3,27.27272727272727
+12,"Phonology, Morphology and Word Segmentation",9,3,25.0
+15,"Semantics: Sentence-level Semantics, Textual Inference and Other areas",41,13,24.074074074074073
+19,"Syntax: Tagging, Chunking and Parsing",14,3,17.647058823529413
+7,"Language Grounding to Vision, Robotics and Beyond",24,5,17.24137931034483
+6,Interpretability and Analysis of Models for NLP,47,5,9.615384615384617
+14,Semantics: Lexical Semantics,15,1,6.25
+11,NLP Applications,59,3,4.838709677419355
