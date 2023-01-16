@@ -3,3 +3,4 @@
 **/checkpoints
 acl-publication-info.74k.parquet
 **/lightning_logs
+**/Base_JSON

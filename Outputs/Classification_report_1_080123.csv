@@ -1,0 +1,26 @@
+,precision,recall,f1-score,support
+Computational Social Science and Social Media,0.5454545454545454,0.3,0.3870967741935483,20.0
+Dialogue and Interactive Systems,0.8235294117647058,0.35,0.4912280701754386,40.0
+Discourse and Pragmatics,0.0,0.0,0.0,10.0
+Ethics and NLP,0.0,0.0,0.0,6.0
+Generation,0.0,0.0,0.0,29.0
+Information Extraction,0.3333333333333333,0.07142857142857142,0.11764705882352941,42.0
+Information Retrieval and Text Mining,0.0,0.0,0.0,14.0
+Interpretability and Analysis of Models for NLP,0.05,0.02857142857142857,0.03636363636363636,35.0
+"Language Grounding to Vision, Robotics and Beyond",0.0,0.0,0.0,21.0
+"Linguistic Theories, Cognitive Modeling and Psycholinguistics",0.16666666666666666,0.25,0.2,8.0
+Machine Learning for NLP,0.1171875,0.8653846153846154,0.20642201834862386,52.0
+Machine Translation and Multilinguality,0.6470588235294118,0.21568627450980393,0.3235294117647059,51.0
+"Phonology, Morphology and Word Segmentation",0.5,0.125,0.2,8.0
+Question Answering,0.5333333333333333,0.27586206896551724,0.36363636363636365,29.0
+Resources and Evaluation,0.0,0.0,0.0,23.0
+Semantics: Lexical Semantics,0.0,0.0,0.0,13.0
+"Semantics: Sentence-level Semantics, Textual Inference and Other areas",0.0,0.0,0.0,37.0
+"Sentiment Analysis, Stylistic Analysis, and Argument Mining",0.0,0.0,0.0,24.0
+Speech and Multimodality,0.25,0.1,0.14285714285714288,10.0
+Summarization,0.5,0.08695652173913043,0.14814814814814817,23.0
+"Syntax: Tagging, Chunking and Parsing",0.0,0.0,0.0,12.0
+Theory and Formalism in NLP (Linguistic and Mathematical),0.0,0.0,0.0,1.0
+accuracy,0.18503937007874016,0.18503937007874016,0.18503937007874016,0.18503937007874016
+macro avg,0.20302561882190895,0.12131315820904852,0.11895130110505171,508.0
+weighted avg,0.26278349877889595,0.18503937007874016,0.15633925269638946,508.0
