@@ -37,7 +37,7 @@ def get_file_dict(data_folder_path):
         
     return pd.DataFrame.from_dict(dic_file)
 
-
+# Specifically for sections after the abstract only
 def get_section(file_path, section_interest):
     
     # Dictionary keeping track of which section
@@ -58,3 +58,24 @@ def get_section(file_path, section_interest):
     f.close()
     
     return final_out
+
+# Specifically for abstract only
+def get_abstract(file_path):
+    
+    # Opening JSON file
+    f = open(file_path)
+
+    # returns JSON object as a dictionary
+    data = json.load(f)
+
+    # Iterating through the json list
+    text = data['abstract']
+    
+    #If abstract is empty, check the first section of the body text, if its unlabelled it is most likely the abstract
+    if text == "" and data['pdf_parse']['body_text'][0]['section'] == "":
+        text = data['pdf_parse']['body_text'][0]['text']
+
+    # Closing file
+    f.close()
+    
+    return text
