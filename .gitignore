@@ -2,6 +2,7 @@
 */.ipynb_checkpoints/*
 **/checkpoints
 acl-publication-info.74k.parquet
+acl-publication-info.74k.v2.full-sections.pkl
 Collated_dataset_for_scientific_papers.csv
 **/lightning_logs
 **/Base_JSON
