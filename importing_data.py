@@ -79,3 +79,19 @@ def get_abstract(file_path):
     f.close()
     
     return text
+
+# If the input was already a extracted json file instead of a link
+def get_section_json(json, section_interest):
+    
+    # Dictionary keeping track of which section
+    final_out = {i.lower().title(): "" for i in section_interest}
+
+    # returns JSON object as a dictionary
+    data = json
+
+    # Iterating through the json list
+    for text_body in data['pdf_parse']['body_text']:
+        if text_body["section"].lower() in section_interest:
+            final_out[text_body["section"].lower().title()] += text_body["text"]
+    
+    return final_out
