@@ -3,7 +3,7 @@
 **/checkpoints
 acl-publication-info.74k.parquet
 acl-publication-info.74k.v2.full-sections.pkl
-Inference for Hot topic classification.csv
+Inference for Hot topic classification.parquet
 Collated_dataset_for_scientific_papers.csv
 **/lightning_logs
 **/Base_JSON
